@@ -1,0 +1,74 @@
+#pragma once
+
+#include <cstdint>
+#include "util\bitfield.hpp"
+
+using int8 = int8_t;
+using int16 = int16_t;
+using int32 = int32_t;
+using int64 = int64_t;
+
+using uint1 = BitField<uint8_t, 1>;
+using uint2 = BitField<uint8_t, 2>;
+using uint3 = BitField<uint8_t, 3>;
+using uint4 = BitField<uint8_t, 4>;
+using uint5 = BitField<uint8_t, 5>;
+using uint6 = BitField<uint8_t, 6>;
+using uint7 = BitField<uint8_t, 7>;
+using uint8 = BitField<uint8_t, 8>;
+using uint9  = BitField<uint16_t, 9>;
+using uint10 = BitField<uint16_t, 10>;
+using uint11 = BitField<uint16_t, 11>;
+using uint12 = BitField<uint16_t, 12>;
+using uint13 = BitField<uint16_t, 13>;
+using uint14 = BitField<uint16_t, 14>;
+using uint15 = BitField<uint16_t, 15>;
+using uint16 = BitField<uint16_t, 16>;
+using uint17 = BitField<uint32_t, 17>;
+using uint18 = BitField<uint32_t, 18>;
+using uint19 = BitField<uint32_t, 19>;
+using uint20 = BitField<uint32_t, 20>;
+using uint21 = BitField<uint32_t, 21>;
+using uint22 = BitField<uint32_t, 22>;
+using uint23 = BitField<uint32_t, 23>;
+using uint24 = BitField<uint32_t, 24>;
+using uint25 = BitField<uint32_t, 25>;
+using uint26 = BitField<uint32_t, 26>;
+using uint27 = BitField<uint32_t, 27>;
+using uint28 = BitField<uint32_t, 28>;
+using uint29 = BitField<uint32_t, 29>;
+using uint30 = BitField<uint32_t, 30>;
+using uint31 = BitField<uint32_t, 31>;
+using uint32 = BitField<uint32_t, 32>;
+using uint33 = BitField<uint64_t, 33>;
+using uint34 = BitField<uint64_t, 34>;
+using uint35 = BitField<uint64_t, 35>;
+using uint36 = BitField<uint64_t, 36>;
+using uint37 = BitField<uint64_t, 37>;
+using uint38 = BitField<uint64_t, 38>;
+using uint39 = BitField<uint64_t, 39>;
+using uint40 = BitField<uint64_t, 40>;
+using uint41 = BitField<uint64_t, 41>;
+using uint42 = BitField<uint64_t, 42>;
+using uint43 = BitField<uint64_t, 43>;
+using uint44 = BitField<uint64_t, 44>;
+using uint45 = BitField<uint64_t, 45>;
+using uint46 = BitField<uint64_t, 46>;
+using uint47 = BitField<uint64_t, 47>;
+using uint48 = BitField<uint64_t, 48>;
+using uint49 = BitField<uint64_t, 49>;
+using uint50 = BitField<uint64_t, 50>;
+using uint51 = BitField<uint64_t, 51>;
+using uint52 = BitField<uint64_t, 52>;
+using uint53 = BitField<uint64_t, 53>;
+using uint54 = BitField<uint64_t, 54>;
+using uint55 = BitField<uint64_t, 55>;
+using uint56 = BitField<uint64_t, 56>;
+using uint57 = BitField<uint64_t, 57>;
+using uint58 = BitField<uint64_t, 58>;
+using uint59 = BitField<uint64_t, 59>;
+using uint60 = BitField<uint64_t, 60>;
+using uint61 = BitField<uint64_t, 61>;
+using uint62 = BitField<uint64_t, 62>;
+using uint63 = BitField<uint64_t, 63>;
+using uint64 = BitField<uint64_t, 64>;

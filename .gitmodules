@@ -1,0 +1,3 @@
+[submodule "externals\\Gooey"]
+	path = externals\\Gooey
+	url = https://github.com/CRefice/Gooey
