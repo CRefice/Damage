@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include <string>
 
 #include "Event.hpp"
 #include "Handle.hpp"
@@ -37,7 +38,7 @@ public:
   std::string text() const { return _text; }
 
 private:
-  bool _checked;
+  bool _checked = false;
 };
 
 class SeparatorItem : public MenuItem

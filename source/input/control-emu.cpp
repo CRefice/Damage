@@ -31,7 +31,17 @@ EmulatedControls::EmulatedControls() {
 
 void EmulatedControls::setDevice(Device* device) {
 	IniFile inifile;
-	inifile.load(pathutil::configPath());
+	if (!inifile.load(pathutil::configPath())) {
+		controls[0].setReference(device->findInput("X"));
+		controls[1].setReference(device->findInput("C"));
+		controls[2].setReference(device->findInput("Enter"));
+		controls[3].setReference(device->findInput("Backspace"));
+		controls[4].setReference(device->findInput("Up"));
+		controls[5].setReference(device->findInput("Down"));
+		controls[6].setReference(device->findInput("Left"));
+		controls[7].setReference(device->findInput("Right"));
+		return;
+	}
 	IniFile::Section& section = inifile.section("Controls");
 
 	for(uint n = 0; n < sizeof(namedControls) / sizeof(*namedControls); ++n) {

@@ -37,8 +37,14 @@ MainWindow::MainWindow() {
 	});
 
 	menuBar.pauseItem.onClick.setHandler([this]() {
-		if(!menuBar.pauseItem.checked()) emulator::pause();
-		else emulator::run();
+		if (!menuBar.pauseItem.checked()) {
+			emulator::pause();
+			menuBar.pauseItem.setChecked(true);
+		}
+		else {
+			emulator::run();
+			menuBar.pauseItem.setChecked(false);
+		}
 	});
 
 	menuBar.resetItem.onClick.setHandler([]() {

@@ -21,7 +21,10 @@ void init() {
 	enumDevices();
 
 	IniFile inifile;
-	inifile.load(pathutil::configPath());
+	if (!inifile.load(pathutil::configPath())) {
+		emuControls.setDevice(devices.front().get());
+		return;
+	}
 
 	IniFile::Section& section = inifile.section("Controls");
 	std::string deviceString;

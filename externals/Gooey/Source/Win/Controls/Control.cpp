@@ -1,3 +1,5 @@
+#include <stdexcept>
+
 #include "Container.hpp"
 #include "Control.hpp"
 

@@ -14,5 +14,5 @@ public:
 	goo::TextItem pauseItem{ "Pause" };
 	goo::TextItem resetItem{ "Reset" };
 
-	goo::PopupMenuItem optionsMenu{ "Options" };
+	//goo::PopupMenuItem optionsMenu{ "Options" };
 };

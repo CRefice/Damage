@@ -10,5 +10,5 @@ MainMenuBar::MainMenuBar() {
 	emuMenu.appendItem(pauseItem);
 	emuMenu.appendItem(resetItem);
 
-	appendItem(optionsMenu);
+	//appendItem(optionsMenu);
 }
