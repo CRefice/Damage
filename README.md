@@ -11,8 +11,10 @@ The emulation itself is fully accurate, capable of emulating most (I'd  say all,
 of the GameBoy library of games.
 
 ## Screenshots
-![Super Mario Land 2](/screenshots/mario-land-2.png)
-![Tetris Land 2](/screenshots/tetris.png)
+<p float="left">
+  <img src="/screenshots/mario-land-2.png" width="400">
+  <img src="/screenshots/tetris.png" width="400">
+</p>
 
 ## Building
 
